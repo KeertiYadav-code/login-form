@@ -1,7 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+   
+    text-align: center;
+}
+
+
 .box{
     width : 600px;
     height : 400px;
     background-color: aliceblue;
+    padding: 50px;
+    margin: 10px;
 }
 body{
     background-color: rgb(156, 177, 196);
