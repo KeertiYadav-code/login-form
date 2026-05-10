@@ -1,0 +1,12 @@
+.box{
+    width : 600px;
+    height : 400px;
+    background-color: aliceblue;
+}
+body{
+    background-color: rgb(156, 177, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
