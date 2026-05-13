@@ -25,7 +25,7 @@ h1{
 
 }
 body{
-    background-color: rgb(75, 79, 159);
+    background-color: rgb(100, 104, 184);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ input{
     padding: 20px;
     font-size: medium;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius:10px;
     box-sizing: border-box;
 }
 
