@@ -9,9 +9,10 @@ A simple and responsive Login/Signup form created using HTML and CSS.
 - Beautiful button styling
 - Google Fonts integration
 
+
 ## Technologies Used
 - HTML5
-- CSS3
+- CSS
 
 ## Project Preview
 This project contains:
@@ -21,4 +22,4 @@ This project contains:
 - Card-style centered form UI
 
 ## Author
-Keerti Yadav
+Keerti Yadav 
