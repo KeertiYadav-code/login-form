@@ -25,12 +25,12 @@ h1{
 
 }
 body{
-    background-color: rgb(100, 104, 184);
+    background-color:#1a2739 ;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-     font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 label{
     font-size: 20px;
@@ -46,6 +46,14 @@ input{
     margin-bottom: 20px;
     border-radius:10px;
     box-sizing: border-box;
+  background-color: white;
+    color:black;
+    transition: 0.3s;
+}
+input:focus{
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
 }
 
 button{
@@ -56,7 +64,71 @@ button{
     margin-top: 15px;
     border: none;
     border-radius: 8px;
-    background-color: rgb(114, 114, 243);
+    background-color: rgb(27, 27, 121);
     color: white;
     cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.forgot-box{
+    color: blue;
+    font-size: 15px;
+   text-align: center;
+    margin-top: 10px;
+}
+
+.don-box{
+    text-align: center;
+    margin-top: 10px;;
+    font-size: 8px;;
+}
+.or-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top:20px;
+}
+.or-box hr{
+    flex: 1;
+}
+.social-btn{
+    width: 100%;
+    height: 40px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    gap: 10px;
+
+
+}
+.Facebook{
+    background-color: #193761;
+    color: #e1e8f3;
+
+}
+.Google{
+    background-color: white;
+    color: black;
+   border: 1px solid #888;
+}
+.social-btn:hover{
+    transform:translateY(-4px);
+    box-shadow: 0px 5px 15px ;
+}
+
+.social-btn:active{
+    transform:scale(0.96);
 }

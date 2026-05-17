@@ -9,21 +9,40 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class ="box">
         <form>
             <h1>LOGIN</h1>
             <div>
-<label for="first" style="display: block;">Username</label>
-<input type="text"id="first" placeholder="Enter your user name">
+<label for="first" style="display: block;">Email</label>
+<input type="email"id="first" placeholder="Email" required>
 </div>
+       
 
 <div>
 <label for="second" style="display: block;">Password</label>
-<input type="password" id="second" placeholder="enter password">
+<input type="password" id="second" placeholder="enter password" required>
 </div>
-<button>LOGIN</button>
+<div class ="forgot-box">
+<a href="#">Forgot password?</a>
+</div>
+<button type="submit">LOGIN</button>
+<div class="don-box">
+    <label>Don't have an account?<a href="#">Signup</a></label>
+</div>
+<div class="or-box">
+    <hr>
+    <span>OR</span>
+    <hr>
+</div>
+<button type="button" class="social-btn Facebook">
+     <i class="fa-brands fa-facebook"></i>  Login with Facebook
+</button>
+<button type="button" class="social-btn Google">
+    <i class="fa-brands fa-google"></i > Login with Google</button>
         </form>
     </div>
 </body>
