@@ -64,7 +64,7 @@ button{
     margin-top: 15px;
     border: none;
     border-radius: 8px;
-    background-color: rgb(27, 27, 121);
+    background-color: rgb(39, 39, 97);
     color: white;
     cursor: pointer;
     transition: 0.3s;
@@ -115,7 +115,7 @@ button:hover{
 
 }
 .Facebook{
-    background-color: #193761;
+    background-color: #1b2a8c;
     color: #e1e8f3;
 
 }
@@ -131,4 +131,12 @@ button:hover{
 
 .social-btn:active{
     transform:scale(0.96);
+}
+.signup-form input{
+    margin-bottom: 25px;
+}
+
+.signup-form label{
+    display: block;
+    margin-bottom: 8px;
 }
