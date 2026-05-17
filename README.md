@@ -1,28 +1,32 @@
-# Login Form Project
+# Login & Signup Form Project
 
-A simple and responsive Login/Signup form created using HTML and CSS.
+A modern and responsive Login & Signup Form built using HTML5 and CSS3.
 
 ## Live Demo
-https://keertiyadav-code.github.io/login-form/
+🔗 https://keertiyadav-code.github.io/login-form/
 
 ## Features
-- Modern UI design
-- Responsive layout
-- Styled input fields
-- Beautiful button styling
-- Google Fonts integration
-
+- Modern UI Design
+- Responsive Layout
+- Login & Signup Pages
+- Styled Input Fields
+- Hover Effects & Animations
+- Social Login Buttons
+- Google Fonts Integration
 
 ## Technologies Used
 - HTML5
-- CSS
+- CSS3
+- Font Awesome
 
 ## Project Preview
-This project contains:
-- Username field
-- Password field
-- Login button
-- Card-style centered form UI
+This project includes:
+- Email Input Field
+- Password Field
+- Login Button
+- Signup Page Navigation
+- Social Login Buttons
+- Card-style Centered Form UI
 
 ## Author
-Keerti Yadav 
+**Keerti Yadav**
